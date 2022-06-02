@@ -1,0 +1,239 @@
+.contact{
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: 28px;
+    font-family:  'Raleway', sans-serif;
+    border: solid 5px;
+    color: white;
+    background-color: rgb(88, 15, 28);
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.fa{
+    background-color: #55131c; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.fa:hover{
+    background-color: gray; 
+    color: white;
+}
+.fa1{
+    margin-left: 12%;
+}
+.adress{
+    margin-left: 10%;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(46, 44, 44);
+}
+.adress1{
+    margin-left: 10%;
+    color: rgb(46, 44, 44);
+    font-weight: 500;
+}
+.phone{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(46, 44, 44);
+}
+.phone1{
+    color: rgb(46, 44, 44);
+    font-weight: 500;
+}
+.mobile{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(46, 44, 44);
+}
+.mobile1{
+    color: rgb(46, 44, 44);
+    font-weight: 500;
+}
+.mail{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(46, 44, 44);
+}
+.mail1{
+    color: rgb(46, 44, 44);
+    font-weight: 500;
+}
+
+
+
+
+
+input, select, textarea 
+{
+ color: rgb(126, 49, 49);
+ font: inherit;
+ margin: 0;
+}
+input
+{
+    line-height: normal; /*visinata na input poleto da bidi po default*/
+}
+
+.containerdiv
+{
+    /* border: solid 1px; */
+    border-color: rgb(75, 33, 33);
+    max-width: 100%;
+    margin: 20px auto; 
+    position: relative;
+}
+
+form
+{
+    padding: 40px;
+    margin: 30px;
+}
+
+.contactforma
+{
+    color: rgb(143, 57, 57);
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5%;
+}
+
+.underline
+{
+    border-bottom: solid 3px rgb(143, 57, 57);
+    margin: -5px auto;
+    width: 200px;
+}
+
+input[type='text'], [type='email'], select, textarea /*input pole od tipot text i email zaedno so tagg select i textare*/
+{
+  background: none;
+  border: none;
+  border-bottom: 3px solid  rgb(143, 57, 57);
+  color:  rgb(77, 18, 18);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 15px;
+  text-transform: uppercase;
+  width: 100%;
+}
+input[type='text']:focus, [type='email']:focus, textarea:focus
+{
+    outline: none;
+    padding: 5px;
+    color: rgb(14, 11, 11);
+}
+.name
+{
+    float: left;
+    width: 45%;
+}
+.lname
+{
+    float: right;
+    width: 45%;
+}
+.email
+{
+    width: 100%;
+}
+.telephone
+{
+    width: 100%;
+}
+.subject
+{
+    width: 100%;
+}
+.message
+{
+    float: none;
+}
+textarea
+{
+    line-height: 150%;
+    height: 100px;
+    resize: none;
+    width: 100%;
+}
+
+.submit
+{
+    margin-left: 33%;
+}
+
+.form_button2
+{
+    background: none;
+    border: solid 3px  rgb(143, 57, 57);
+    color:  rgb(143, 57, 57);
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 35px;
+    margin-left: 10%;
+    text-transform: uppercase;
+}
+
+.form_button2:hover
+{
+    background:rgb(138, 69, 69);
+    color: white;
+    border-radius: 10px;
+}
+.footer {
+    position: fixed;
+    margin-left: -8%;
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 109%;
+    background-color: rgb(65, 37, 37);
+    color: rgb(124, 102, 102);
+    text-align: center;   
+}
+.fa {
+    padding: 10px;
+    font-size: 28px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+    color: white;
+    background-color: rgb(128, 66, 66);
+}
+
+.fa-facebook {
+    background: wheat;
+    color: black;
+}
+.fa-instagram {
+    background: wheat;
+    color: black;
+}
+.fa-linkedin {
+    background: wheat;
+    color: black;
+}
+.fa-twitter {
+    background: wheat;
+    color: black;
+}

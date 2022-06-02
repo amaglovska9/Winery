@@ -1,0 +1,116 @@
+/* .navbar{
+    background-color: rgba(240, 239, 178, 0.973);
+} */
+.secondsection{
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(75, 33, 33, 0.137);
+    display: block;
+    background-color: rgba(245, 245, 220, 0.87);
+}
+.ourstory{
+    font-size: 37px;
+    margin-top: 5%;
+    margin-left: 19%;   
+    color: rgb(75, 27, 63);
+}
+.underline
+{
+    border-bottom: solid 1px rgb(75, 27, 63);
+    margin: -5px auto;
+    width: 150px;
+    margin-left: 22%;   
+
+}
+
+.paragrav1{
+    color: rgb(75, 27, 63);
+    margin-left: 19%;   
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+.picsecondsection{
+    justify-content: end;
+}
+
+
+/* TRETA SEKCIJA */
+.thirdsection{
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(43, 42, 42, 0.137);
+    display: block;
+}
+.picthirdsection{
+    margin-left: 25%;
+}
+.wineindustry{
+    color: rgb(37, 36, 36);
+    font-size: 37px;
+    margin-top: 8%;
+    margin-left: 15%;
+}
+.underline2{
+    border-bottom: solid 1px rgb(138, 32, 32);
+    margin: -5px auto;
+    width: 160px;
+    margin-top: 1%;
+    margin-left: 21%;
+}
+.paragrav2{
+    color: rgb(37, 36, 36);
+    margin-top: 10%;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 32%;
+}
+.btn{
+    color: black;
+    margin-top: 5%;
+    margin-left: 26%;
+
+}
+.footer {
+    position: relative;
+    margin-left: -8%;
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 109%;
+    background-color: rgb(65, 37, 37);
+    color: rgb(124, 102, 102);
+    text-align: center;   
+}
+.fa {
+    padding: 10px;
+    font-size: 28px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+    color: white;
+    background-color: rgb(128, 66, 66);
+}
+
+.fa-facebook {
+    background: wheat;
+    color: black;
+}
+.fa-instagram {
+    background: wheat;
+    color: black;
+}
+.fa-linkedin {
+    background: wheat;
+    color: black;
+}
+.fa-twitter {
+    background: wheat;
+    color: black;
+}
+  
+  

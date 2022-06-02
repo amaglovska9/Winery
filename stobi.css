@@ -1,0 +1,121 @@
+
+.stobi{
+    color: white;
+    background-color: rgb(30, 68, 42);
+    font-family: Georgia, serif;
+    font-size: 25px;
+    text-align: center;
+    
+}
+.secondsection{
+    margin-left: 40%;
+    margin-top: -22%;
+}
+.paragrav1{
+    margin-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: left;
+}
+.container-fluid{
+    background:rgba(35, 78, 49, 0.733);
+}
+.products{
+    color:  rgb(19, 13, 13);
+    font-family: Georgia, serif;
+    font-size: 30px;
+    margin-left: 15%;
+
+}
+.products:hover{
+    color: white;
+    background-color: rgb(30, 68, 42);
+}
+.slideshow{
+    width: 700px;
+}
+.underline{
+    border-bottom: solid 2px rgb(30, 68, 42);
+    width: 250px;
+    margin-left: 15%;
+
+}
+.order{
+    color: white;
+    background: rgb(30, 68, 42);
+}
+.kopce{
+    justify-content: center;
+    margin-bottom: 100%;
+}
+.form_button
+{
+    background: black;
+    border: solid 5px black;
+    color: white;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-top: 40%;
+    margin-left: 35%;
+}
+
+.form_button:hover
+{
+    background:rgb(30, 68, 42);
+    color: white;
+    border-radius: 5x;
+}
+.location{
+    color:  rgb(19, 13, 13);
+    font-family: Georgia, serif;
+    font-size: 30px;
+    margin-left: 15%;
+}
+.map{
+    width: 100%; /*niz cel ekran kje bidi postavena mapata*/
+    height: 400px;
+   
+}
+.footer {
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(63, 63, 60, 0.932);
+    color: black;
+    text-align: center;
+}
+.fa {
+    padding: 10px;
+    font-size: 28px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+    color: white;
+    background-color: rgb(108, 206, 177);
+}
+
+.fa-facebook {
+    background: rgb(85, 150, 105);
+    color: white;
+}
+.fa-instagram {
+    background:  rgb(85, 150, 105);
+    color: white;
+}
+.fa-linkedin {
+    background:  rgb(85, 150, 105);
+    color: white;
+}
+.fa-twitter {
+    background:  rgb(85, 150, 105);
+    color: white;
+}

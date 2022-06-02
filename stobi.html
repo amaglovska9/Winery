@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stobi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="stobi.css">
+    <style>
+        .active{
+            font-size: 15px;
+            color: black;
+        }
+        .active:hover{
+            background-color: rgb(85, 150, 105);
+            color: black;
+        }
+        .nav{
+            margin-left: 50%;
+            justify-content: end;
+        }  
+        .dropdown-item:hover{
+            color:black;
+            background-color:  rgb(85, 150, 105);
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-light">
+        <div class="container-fluid-sm-5">
+            <img src="img/logo2.png"  class="navbar-brand" alt="" width="150" height="100">
+        </div>
+        <div class="container">
+            <ul class= "nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="Winery.html"><b>HOME</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="about.html"><b>ABOUT</b></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="wineries.html"aria-disabled="true" data-bs-toggle="dropdown"> WINERIES </a>
+                      <ul class="dropdown-menu"> 
+                        <li><a class="dropdown-item" href="tikves.html"> TIKVES </a></li>
+                        <li><a class="dropdown-item" href="stobi.html" > STOBI </a></li>
+                      </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="contact.html"><b>CONTACT</b></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- <div class="container-fluid-sm-5">
+        <img src="img/stobilogo.png" alt="" class="stobilogo">  
+    </div> -->
+
+    <!-- <div class="container1">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/stobi1.jpeg" alt="" width="600" height="350">
+            </div>
+            <div class="secondsection col-md-6 ">
+                <h1 class="stobi">STOBY WINERY</h1>
+                <p class="paragrav1">
+                    Stobi winery is located only 80 km from the capital of Skopje, in the heart of Macedonia, <br> 
+                    in the Tikves wine region – the biggest and the most important wine region which stretches <br>
+                    on 13.000 ha, along the same latitude as Rioja and Ribera del Duero. As the Mediterranean <br>
+                    climate from the south collides with the continental climate from the north,it creates an  <br>
+                    area most remarkable for grape growing and wine production on the entire Balkan Peninsula. <br>
+                    We chose to place our winery in the locality of Gradsko, in vicinity of the ancient city of Stobi, <br>
+                    where the two rivers Erigon (Crna river) and Axios (Vardar) cross their path. It is also where <br>
+                    we cultivate all of our vineyards.
+            </div>
+        </div>
+    </div> -->
+
+    
+    <div class="container">
+        <h1 class="stobi">STOBY WINERY</h1>
+        <p class="paragrav1">
+            Stobi winery is located only 80 km from the capital of Skopje, in the heart of Macedonia,
+            in the Tikves wine region – the biggest and the most important wine region which stretches 
+            on 13.000 ha, along the same latitude as Rioja and Ribera del Duero. As the Mediterranean
+            climate from the south collides with the continental climate from the north,it creates an  
+            area most remarkable for grape growing and wine production on the entire Balkan Peninsula. 
+            We chose to place our winery in the locality of Gradsko, in vicinity of the ancient city of Stobi, 
+            where the two rivers Erigon (Crna river) and Axios (Vardar) cross their path. It is also where 
+            we cultivate all of our vineyards. </p>
+        
+    </div>
+
+    <br><br><br><br>
+
+    <h1 class="products">OUR PRODUCTS</h1>
+    <div  class="underline"></div>
+    <br>
+
+
+ <div class="container-fluid">
+           <div class="row">
+                <div class="col-md-6">
+                    <div class="slideshow">
+                    <div id="stobi" class="carousel slide" data-bs-ride="carousel"> 
+                        <div class="carousel-inner"> 
+                            <div class="carousel-item active"> 
+                               <img src="img/stobiwines1.png" alt="" class="myclass w-100">
+                           </div>
+                           <div class="carousel-item">
+                               <img src="img/stobiwines2.jpg" alt="" class="myclass  w-100">
+                           </div>
+                           <div class="carousel-item">
+                              <img src="img/stobiwines3.jpeg" alt="" class="myclass  w-100">
+                           </div>
+                           <div class="carousel-item">
+                              <img src="img/stobiwines4.jpg" alt="" class="myclass  w-100">
+                           </div>
+                           <div class="carousel-item">
+                            <img src="img/stobiwines5.jpg" alt="" class="myclass  w-100">
+                         </div>
+                         <div class="carousel-item">
+                            <img src="img/stobiwines6.jpg" alt="" class="myclass  w-100">
+                         </div>
+                
+                        </div>
+                
+                        <!-- Kopcinja za vrtenje na slider -->
+                        <button type="button" class="carousel-control-prev carousel-dark" data-bs-slide="prev" data-bs-target="#stobi">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button type="button" class="carousel-control-next carousel-dark "data-bs-slide="next" data-bs-target="#stobi">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                
+                        <!-- INDICATORS -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#stobi" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#stobi" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#stobi" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#stobi" data-bs-slide-to="3"></button>
+                            <button type="button" data-bs-target="#stobi" data-bs-slide-to="4"></button>
+                            <button type="button" data-bs-target="#stobi" data-bs-slide-to="5"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+               <a href="https://wine.mk/?s=stobi&post_type=product"> <input type="submit" value="ORDER" class="form_button"></a>
+            </div>
+        </div>        
+    </div>
+    <br><br>
+    <div class="container-fluid-sm-5">
+        <h1 class="location">OUR LOCATION</h1>
+        <div class="underline"></div>
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23875.568247854746!2d21.91871723955078!3d41.58123260000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13567ebbbb364e1b%3A0x25d7fc5b7d08fff6!2sStobi%20Winery!5e0!3m2!1sen!2smk!4v1644344227676!5m2!1sen!2smkclass=" class="map" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+        <br><br><br>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="https://www.facebook.com/winesofmacedonia1/" class="fa fa-facebook"></a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://twitter.com/WinesMacedonia" class="fa fa-twitter"></a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://www.instagram.com/wines.of.macedonia/" class="fa fa-instagram"></a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://www.linkedin.com/company/winesofmacedonia/" class="fa fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+        
+        </footer>
+</body>
+</html>

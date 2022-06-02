@@ -1,0 +1,157 @@
+.tikveslogo{
+    margin-left: 40%;
+}
+.underline{
+    
+    border-bottom: solid 4px rgb(207, 116, 88);
+    margin: -5px auto;
+    width: 1000px;
+    margin-right: 40%;   
+    margin-left: 20%;
+}
+.paragrav1{
+    font-size: 15px;
+    margin-left: 7%;
+    text-align: center;
+    font-family: Georgia, serif;
+}
+.paragrav2{
+    font-size: 15px;
+    margin-right: 7%;
+    text-align: center;
+    font-family: Georgia, serif;
+}
+.underline2{
+    
+    border-bottom: solid 5px rgb(207, 116, 88);
+    margin: -5px auto;
+    width: 1500px;
+    margin-right: 50%;   
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.ourewines{
+    font-size: 35px;
+    font-family: Georgia, serif;
+    text-align: center;
+    background: rgba(207, 116, 88, 0.767);
+}
+.barovo{
+    font-size: 28px;
+    font-family: Georgia,serif;
+    margin-left: 5%;
+    margin-top: 20%;
+    text-align: center;
+    background-color: rgba(207, 116, 88, 0.13);
+}
+.domaine{
+    font-size: 15px;
+    font-family: Georgia,serif;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    color: rgb(82, 78, 78);
+    text-align: center;
+
+}
+.paragrav3{
+    font-size: 15px;
+    font-family: Georgia,serif;
+    margin-left: 5%;
+    color: rgb(73, 70, 70);
+    text-align: center;
+}
+.belavoda{
+    font-size: 28px;
+    font-family: Georgia,serif;
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: center;
+    background-color: rgba(207, 116, 88, 0.13);
+}
+.paragrav4{
+    font-size: 15px;
+    font-family: Georgia,serif;
+    margin-left: 5%;
+    color: rgb(73, 70, 70);
+    text-align: center;
+}
+.barovopic{
+    margin-bottom: 5%;
+    width: 700px;
+}
+.belavodapic{
+    margin-top: -10%;
+    width: 650px;
+
+}
+.lepovo{
+    font-size: 28px;
+    font-family: Georgia,serif;
+    text-align: center;
+    background-color: rgba(207, 116, 88, 0.13);
+}
+.paragrav5{
+    font-size: 15px;
+    font-family: Georgia,serif;
+    text-align: center;
+}
+.lepovopic{
+    margin-left: 13%;
+}
+.chateu{
+    font-size: 28px;
+    font-family: Georgia,serif;
+    text-align: center;
+    background-color: rgba(207, 116, 88, 0.13);
+
+}
+.paragrav6{
+    font-size: 15px;
+    font-family: Georgia,serif;
+    text-align: center;
+}
+.chateupic{
+    margin-left: 13%;
+}
+
+.footer {
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(63, 63, 60, 0.932);
+    color: black;
+    text-align: center;
+}
+.fa {
+    padding: 10px;
+    font-size: 28px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+    color: white;
+    background-color: rgb(128, 66, 66);
+}
+
+.fa-facebook {
+    background:rgb(207, 116, 88);
+    color: white;
+}
+.fa-instagram {
+    background: rgb(207, 116, 88);
+    color: white;
+}
+.fa-linkedin {
+    background: rgb(207, 116, 88);
+    color: white;
+}
+.fa-twitter {
+    background:rgb(207, 116, 88);
+    color: white;
+}
